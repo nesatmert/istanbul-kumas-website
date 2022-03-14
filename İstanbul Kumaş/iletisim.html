@@ -1,0 +1,161 @@
+<html>
+<head>
+    <title>İletişim</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div id="reklam">
+
+        <font>Kalitenin degişmez adresi <span id="kalın">      İSTANBUL KUMAŞ   </span></font>
+        <div id="logo">
+            <a href="index.html"> <i class="fas fa-home fa-2x"></i></a> 
+            <a href="https://www.instagram.com/nesatmert/"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+
+    <div id="container">
+        <header>
+            <img id="top-picture" src="image/anasayfa1.jpg">
+        </header>
+        <nav>
+            
+            <a href="index.html">Anasayfa</a>
+            <a href="trend.html">Trendler</a>
+            <a href="bilgi.html">Kumaş bilgileri</a>
+            <a href="hakkımızda.html">Hakkımızda</a>
+            <a href="iletisim.html">İletişim</a>
+            
+        </nav>
+         
+        
+        <section>
+            
+
+            <main>
+                <h1 id="main-yazı">İletişim Bilgilerimiz...</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192697.79327649932!2d28.872096739702062!3d41.005495809214985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2zxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1616274612672!5m2!1str!2str" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <hr>
+                <form>
+                    Firma <input type="radio" name="cinsiyet">
+                    Bireysel <input type="radio" name="cinsiyet">
+                    <br><br>
+                    <table>
+                        
+
+                        <tr>
+                            <td><label for="name">Ad Soyad:</label></td>
+                            <td><input type="text" id="name" placeholder=" Adınızı ve soyadınızı giriniz." required/></td>
+                        </tr>
+                        <tr>
+                            <td><label for="mail">E-Posta: </label></td>
+                            <td><input type="email" id="mail" placeholder="E-postanızı giriniz." required /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="telefon">Telefon: </label></td>
+                            <td><input type="tel" id="telefon" placeholder="Telefon numaranızı giriniz." required /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="message">Mesajınız:</label></td>
+                            <td><textarea id="message" cols="30" rows="4"></textarea></td>
+                        </tr>
+                        
+                    </table>
+                    <br>
+                    <input type="checkbox" name="bildirim">E-posta bildirimi almak istiyorum  
+                    <br>
+                    <p>
+                        Sizinle nasıl iletişime geçelim ?<br><br>
+                        <select name="select-menu" id="select-menu">
+                        <option>Telefon</option>
+                        <option>E-posta</option>
+                        </select> 
+                    </p>
+                   
+
+                    
+                    <input type="submit" value="Onayla" >
+                    <input type="reset" value="Sıfırla" >
+                    
+                </form>
+                <div id="alert-buton">
+                    Site hata bildirme.
+                    <button id="alertButton" onclick="alertBox()">
+                      Alert Butonu!
+                    </button>
+                    <script>
+                        function alertBox(){
+                            alert("Alert in assignment one!")
+                        }
+                    </script>
+                </div>
+                
+                <div class="dropdown">
+                    <button class="dropbtn">Sosyal Medya</button>
+                    <div class="dropdown-content">
+                    <a href="https://www.instagram.com/nesatmert/" target="_blank">İnstagram</a>
+                    <a href="https://twitter.com/" target="_blank">Twitter</a>
+                    <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+                    </div>
+                  </div>
+                <!-- <form action="">
+                    <table>
+
+                
+                        <div>Bize mesaj atın</div> 
+
+                        <p>
+                            Firma <input type="radio" name="cinsiyet">
+                            Bireysel <input type="radio" name="cinsiyet">
+                        </p>
+                        
+                        <p>
+                            Ad <input type="text" name="ad" placeholder="Adınızı giriniz." required>
+                        </p>
+                        <p>
+                            Soyad <input type="text" name="soyad" placeholder="Soyadınızı giriniz." required>
+                        </p>
+                        <p>
+                            Eposta <input type="email" name="Eposta" placeholder="E-postanızı giriniz." required>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="bildirim">E-posta bildirimi almak istiyorum                 
+                        </p>
+                            <p>
+                            <select name="Sosyal medya adreslerimiz" id="sosyalmedya">
+                                <option><a href="index.html">İnstagram</a></option>
+                                <option><a href="">İnst</a></option>  
+                                <option><a href="">İns</a></option>
+
+                            </select>
+                        </p>
+
+                        <input type="submit" value="gönder" name="gönder">
+                        <input type="reset" name="sıfırla">
+                    </table>
+                </form> -->
+            
+
+            </main>
+
+
+        </section>
+
+        <footer>Tüm hakları saklıdır. | &copy; 2021</footer>
+        
+    </div>
+
+    
+</body>
+
+
+
+
+
+
+</html>
